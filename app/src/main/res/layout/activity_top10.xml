@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".top10">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:onClick="bt1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="1. Celestron NexStar 8 SE Telescope"
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="2.Celestron CPC ® Deluxe 800 HD Telescope  "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="3.Celestron AstroMaster 114EQ Telescope "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="4.SkyWatcher S11800 GoTo Collapsible Dobsonian"
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="5. Vixen Space Eye 50mm Telescope"
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="6.Celestron NexStar 127 SLT
+         "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="7. Orion 8945 SkyQuest XT8 Dobsonian "
+                android:background="@drawable/round2"
+                />
+            <Button
+                android:onClick="bt8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="8. Celestron 127EQ PowerSeeker     "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="9. Orion 10014 SkyQuest"
+                android:background="@drawable/round2"
+                />
+            <Button
+                android:onClick="bt10"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:text="10.Celestron 70mm Travel Scope  "
+                android:background="@drawable/round2"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
